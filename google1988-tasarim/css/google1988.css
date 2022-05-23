@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    font-size: 13px;
+    box-sizing: border-box; 
+}
+
+header {
+    text-align: center;
+}
+.img-google {
+    width: 351px;
+    height: 113px;
+    text-align: center;
+}
+
+.search-section {
+    margin: 0px auto;
+    padding: 0px;
+    width: 90%;
+    background-color: #EEEEEE ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section p {
+    font-size: 16px;
+}
+
+.info-section {
+    margin: 0px auto;
+    padding: 2px;
+    max-width:90%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.box1 {
+    margin: 1px;
+    padding: 0px;
+    background-color: rgb(126, 229, 218);
+    display: flex;
+    flex-direction:column;
+    flex: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 a, .box1 p {
+    font-size: 16px;
+}
+
+.box2 {
+    margin: 1px;
+    padding: 0px;
+    background-color: rgb(112, 204, 194);
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    margin: 1px;
+    padding: 0px;
+    background-color: rgb(41, 148, 139);
+    display: flex;
+    flex-direction:column;
+    flex: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 input, .box3 p {
+    width: 177px;
+}
+
+.box3 input {
+    width: 177px;
+}
+
+.box3.sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.box3 input[type=submit] {
+    width: 75px;
+    height: 21px;
+}
+
+footer {
+    margin: 16px auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+
+
